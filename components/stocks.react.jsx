@@ -57,7 +57,7 @@ var Stocks = React.createClass({
     render: function(){
         return (
             <div className="wrap">
-                <h1>Stocks App</h1>
+                <h1 className="head">Stocks App</h1>
                 <h1 className="symbol">{this.state.data.symbol && this.state.data.symbol.toUpperCase() + " " + this.state.price[this.state.price.length - 1].toFixed(2)}</h1>
                 <p>Enter symbol</p>
                 <form onSubmit={this.getDataStream}>
