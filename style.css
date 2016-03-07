@@ -1,0 +1,53 @@
+.ct-chart {
+	height: 500px;
+}
+
+* {
+	font-family: sans-serif;
+	color: #333;
+}
+
+body {
+	background: url('http://www.designbolts.com/wp-content/uploads/2014/03/Light-Blue-blur-background1.jpg');
+}
+
+.wrap {
+	padding: 20px;
+	border-radius: 5px;
+	width: 700px;
+	position: absolute;
+	top: 50px;
+	bottom: 50px;
+	left: 0px;
+	right: 0;
+	margin: auto;
+	background: white;
+	box-shadow: 1px 5px 14px -2px rgba(133,129,133,1);
+}
+
+.input {
+	outline: 0;
+	margin-bottom: 20px;
+	line-height: 20px;
+	width: 70px;
+}
+
+.btn {
+	background: #21C487;
+	border: 0;
+	border-radius: 0;
+	padding: 10px 20px;
+	cursor: pointer;
+	color: white;
+	outline: 0;
+}
+
+.symbol {
+	color: #21C487;
+	float: right;
+}
+
+path {
+	stroke: blue!important;
+	stroke-width: 2!important;
+}
